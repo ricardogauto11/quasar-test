@@ -17,8 +17,8 @@
         </q-btn>
 
         <q-toolbar-title>
-          Quasar App
-          <div slot="subtitle">Running on Quasar v{{ $q.version }}</div>
+          Dr.
+          <div slot="subtitle">Lic. en Psicología</div>
         </q-toolbar-title>
       </q-toolbar>
     </q-layout-header>
@@ -32,26 +32,26 @@
         link
         inset-delimiter
       >
-        <q-list-header>Essential Links</q-list-header>
+        <q-list-header>Navegación</q-list-header>
         <q-item @click.native="openURL('http://quasar-framework.org')">
           <q-item-side icon="school" />
-          <q-item-main label="Docs" sublabel="quasar-framework.org" />
+          <q-item-main label="Turnos" sublabel="Disponibles a partir de Agosto 2021" />
         </q-item>
         <q-item @click.native="openURL('https://github.com/quasarframework/')">
           <q-item-side icon="code" />
-          <q-item-main label="GitHub" sublabel="github.com/quasarframework" />
+          <q-item-main label="Consultorios" sublabel="Desde Goya hasta Tokyo" />
         </q-item>
         <q-item @click.native="openURL('https://discord.gg/5TDhbDg')">
           <q-item-side icon="chat" />
-          <q-item-main label="Discord Chat Channel" sublabel="https://discord.gg/5TDhbDg" />
+          <q-item-main label="Precios" sublabel="Mínimo €800" />
         </q-item>
         <q-item @click.native="openURL('http://forum.quasar-framework.org')">
           <q-item-side icon="record_voice_over" />
-          <q-item-main label="Forum" sublabel="forum.quasar-framework.org" />
+          <q-item-main label="Habilidades" sublabel="Gran levantador de autoestima!" />
         </q-item>
         <q-item @click.native="openURL('https://twitter.com/quasarframework')">
           <q-item-side icon="rss feed" />
-          <q-item-main label="Twitter" sublabel="@quasarframework" />
+          <q-item-main label="Facebook" sublabel="Nada de pornografía, por favor" />
         </q-item>
       </q-list>
     </q-layout-drawer>
